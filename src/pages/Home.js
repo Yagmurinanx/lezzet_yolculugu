@@ -31,8 +31,8 @@ const Home = () => {
       {recipeList.map((yemek) => (
         <MainCard
           key={yemek.id}
-          name={yemek.name}
           image={yemek.image}
+          name={yemek.name}
           description={yemek.description}
         />
       ))}
