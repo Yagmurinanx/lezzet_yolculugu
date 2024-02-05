@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  nav img {
+    margin-right: 10px; 
+    width: 20px; 
+    height: 20px;
+    object-fit: contain; 
+  }
+
+  nav button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: larger;
+   
+  } 

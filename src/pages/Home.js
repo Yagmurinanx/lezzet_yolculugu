@@ -27,7 +27,6 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Lezzet Yolculuğu</h1>
       {recipeList.map((yemek) => (
         <MainCard
           key={yemek.id}
