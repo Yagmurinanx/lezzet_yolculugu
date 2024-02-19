@@ -2,10 +2,10 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import "./MainCard.css";
 
-
 function MainCard({ name, description, image }) {
   const smallScreenCharLimit = 200;
   const mediumScreenCharLimit = 300;
+  const largeScreenCharLimit = 1124;
 
   const isSmallScreen = useMediaQuery({ maxWidth: 600 });
   const isMediumScreen = useMediaQuery({ minWidth: 601, maxWidth: 1073 });
@@ -16,7 +16,7 @@ function MainCard({ name, description, image }) {
     } else if (isMediumScreen) {
       return mediumScreenCharLimit;
     } else {
-      return Number.POSITIVE_INFINITY;
+      return largeScreenCharLimit;
     }
   };
 
@@ -38,4 +38,3 @@ function MainCard({ name, description, image }) {
 }
 
 export default MainCard;
-    
