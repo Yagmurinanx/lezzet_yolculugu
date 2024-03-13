@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import MainCard from "../components/MainCard";
+import MainCard from "../components/Cards/MainCard";
 import { db } from '../config/firebase';
 import { getDocs, collection } from 'firebase/firestore';
 
