@@ -33,8 +33,10 @@ const Home = () => {
           image={yemek.image}
           name={yemek.name}
           description={yemek.description}
+          
         />
       ))}
+      <p>test</p>
     </div>
   );
 };
