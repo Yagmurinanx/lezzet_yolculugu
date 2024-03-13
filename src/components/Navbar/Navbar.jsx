@@ -28,9 +28,9 @@ const Navbar = () => {
         </button>
 
         <div className="icons">
-          <Link to="/Auth">
+          <button type="button">
             <img src={User} alt="User" />
-          </Link>
+          </button>
 
           <button>
             <img src={Heart} alt="Heart" />
